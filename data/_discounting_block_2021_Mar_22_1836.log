@@ -1,0 +1,272 @@
+0.8025 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'pyo', 'pygame'] (in that order).
+4.8565 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+5.7654 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C3F9230F98>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C3F93D3630>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7658 	EXP 	window1: mouseVisible = True
+5.7659 	EXP 	window1: recordFrameIntervals = False
+5.9314 	EXP 	window1: recordFrameIntervals = True
+6.1151 	EXP 	window1: recordFrameIntervals = False
+6.2847 	EXP 	Created language_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='language_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2855 	EXP 	Created Intro_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Intro_1', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2861 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2907 	EXP 	Created fixImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fixImg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.2915 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_13', opacity=1, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2923 	EXP 	Created text_14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_14', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2947 	EXP 	Created delayImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='delayImg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.2953 	EXP 	Created text_130 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_130', opacity=1, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2960 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2998 	EXP 	Created choiceImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='choiceImg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.3015 	EXP 	Created choiceWarning = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choiceWarning', opacity=1, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3020 	EXP 	Created to_choose = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='to_choose', opacity=1, ori=0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3057 	EXP 	Created leftImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='leftImg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.3094 	EXP 	Created rewardImgLeft = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rewardImgLeft', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.3109 	EXP 	Created rewardText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rewardText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3145 	EXP 	Created rightImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rightImg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.3182 	EXP 	Created rewardImgRight = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rewardImgRight', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.8, 1. ]), texRes=128, units='height', win=Window(...))
+6.3187 	EXP 	Created rightText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rightText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3223 	EXP 	Created block4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='block4', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.35, 0.35]), texRes=128, units='height', win=Window(...))
+6.3260 	EXP 	Created block3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='block3', opacity=1.0, ori=0.0, pos=array([0.5, 0.2]), size=array([0.35, 0.35]), texRes=128, units='height', win=Window(...))
+6.3296 	EXP 	Created block2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='block2', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.35, 0.35]), texRes=128, units='height', win=Window(...))
+6.3332 	EXP 	Created block1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='block1', opacity=1.0, ori=0.0, pos=array([-0.5,  0.2]), size=array([0.35, 0.35]), texRes=128, units='height', win=Window(...))
+6.3337 	EXP 	Created repeatText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='repeatText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3343 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3349 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endText', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.3671 	EXP 	language_text: autoDraw = True
+8.5557 	DATA 	Keypress: 1
+8.6267 	EXP 	language_text: autoDraw = False
+8.6267 	EXP 	Intro_1: text = 'Добро пожаловать в игру! \n Ваша задача заключается в том, чтобы выиграть как можно больше M&Ms. Для этого в каждом раунде игры Вам необходимо выбрать один из двух вариантов c разным количеством M&Ms, вероятностью их получения и длительностью ожидания. Точное количество M&Ms и вероятность их получения будут написаны на экране. Для прояснения смысла – попробуйте сыграть. Нажмите ПРОБЕЛ чтобы запустить несколько пробных раундов.'
+8.6267 	EXP 	Intro_1: autoDraw = True
+9.1208 	EXP 	Created sequence: sequential, trialTypes=1, nReps=200, seed=None
+9.1216 	EXP 	New trial (rep=0, index=0): None
+9.1238 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+9.1240 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+9.1242 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+9.1244 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+9.1246 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+9.1861 	DATA 	Keypress: space
+9.1965 	EXP 	Intro_1: autoDraw = False
+9.1965 	EXP 	choiceImg: image = 'img/even_choice_4.png'
+9.1965 	EXP 	choiceWarning: text = '32 M&Ms 67%              16 M&Ms 100%'
+9.1965 	EXP 	to_choose: text = 'Для выбора этой опции нажмите 1  Для выбора этой опции нажмите 2'
+9.1965 	EXP 	choiceImg: autoDraw = True
+9.1965 	EXP 	choiceWarning: autoDraw = True
+9.1965 	EXP 	to_choose: autoDraw = True
+11.1056 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+11.1057 	EXP 	New trial (rep=0, index=0): None
+11.1549 	DATA 	Keypress: 1
+11.1660 	EXP 	choiceImg: autoDraw = False
+11.1660 	EXP 	choiceWarning: autoDraw = False
+11.1660 	EXP 	to_choose: autoDraw = False
+11.1660 	EXP 	leftImg: image = 'img/even_8_circle_4.png'
+11.1660 	EXP 	leftImg: autoDraw = True
+14.2552 	EXP 	leftImg: autoDraw = False
+14.2552 	EXP 	leftImg: autoDraw = False
+14.2552 	EXP 	rewardImgLeft: texRes = 128
+14.2552 	EXP 	rewardImgLeft: image = 'img/8m&m.png'
+14.2552 	EXP 	rewardText: text = 'Вы получили M&Ms!'
+14.2552 	EXP 	rewardImgLeft: autoDraw = True
+14.2552 	EXP 	rewardText: autoDraw = True
+14.6897 	DATA 	Keypress: space
+15.1553 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+15.2405 	EXP 	rewardImgLeft: autoDraw = False
+15.2405 	EXP 	rewardText: autoDraw = False
+15.2405 	EXP 	block4: texRes = 128
+15.2405 	EXP 	block4: image = 'img/coffee.jpeg'
+15.2405 	EXP 	block3: texRes = 128
+15.2405 	EXP 	block3: image = 'img/cake.jpeg'
+15.2405 	EXP 	block2: texRes = 128
+15.2405 	EXP 	block2: image = 'img/gummi.jpeg'
+15.2405 	EXP 	block1: texRes = 128
+15.2405 	EXP 	block1: image = 'img/tea.jpeg'
+15.2405 	EXP 	repeatText: text = 'Итого: 32\nВаш уровень 0\nНажмите ПРОБЕЛ для продолжения'
+15.2405 	EXP 	block4: autoDraw = True
+15.2405 	EXP 	block3: autoDraw = True
+15.2405 	EXP 	block2: autoDraw = True
+15.2405 	EXP 	block1: autoDraw = True
+15.2405 	EXP 	repeatText: autoDraw = True
+15.2893 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+15.2901 	EXP 	New trial (rep=1, index=0): None
+15.2914 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+15.2915 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+15.2917 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+15.2918 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+15.2920 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+15.3239 	DATA 	Keypress: space
+15.3347 	EXP 	block4: autoDraw = False
+15.3347 	EXP 	block3: autoDraw = False
+15.3347 	EXP 	block2: autoDraw = False
+15.3347 	EXP 	block1: autoDraw = False
+15.3347 	EXP 	repeatText: autoDraw = False
+15.3347 	EXP 	choiceImg: image = 'img/odd_choice_4.png'
+15.3347 	EXP 	choiceWarning: text = '18 M&Ms 100%              32 M&Ms 67%'
+15.3347 	EXP 	to_choose: text = 'Для выбора этой опции нажмите 1  Для выбора этой опции нажмите 2'
+15.3347 	EXP 	choiceImg: autoDraw = True
+15.3347 	EXP 	choiceWarning: autoDraw = True
+15.3347 	EXP 	to_choose: autoDraw = True
+16.9239 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+16.9240 	EXP 	New trial (rep=0, index=0): None
+16.9542 	DATA 	Keypress: 1
+16.9650 	EXP 	choiceImg: autoDraw = False
+16.9650 	EXP 	choiceWarning: autoDraw = False
+16.9650 	EXP 	to_choose: autoDraw = False
+16.9650 	EXP 	leftImg: image = 'img/odd_4_circle.png'
+16.9650 	EXP 	leftImg: autoDraw = True
+18.0557 	EXP 	leftImg: autoDraw = False
+18.0557 	EXP 	leftImg: autoDraw = False
+18.0557 	EXP 	rewardImgLeft: texRes = 128
+18.0557 	EXP 	rewardImgLeft: image = 'img/4m&m.png'
+18.0557 	EXP 	rewardText: text = 'Вы получили M&Ms!'
+18.0557 	EXP 	rewardImgLeft: autoDraw = True
+18.0557 	EXP 	rewardText: autoDraw = True
+18.9662 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+19.0349 	EXP 	rewardImgLeft: autoDraw = False
+19.0349 	EXP 	rewardText: autoDraw = False
+19.0349 	EXP 	block4: texRes = 128
+19.0349 	EXP 	block4: image = 'img/coffee.jpeg'
+19.0349 	EXP 	block3: texRes = 128
+19.0349 	EXP 	block3: image = 'img/cake.jpeg'
+19.0349 	EXP 	block2: texRes = 128
+19.0349 	EXP 	block2: image = 'img/gummi.jpeg'
+19.0349 	EXP 	block1: texRes = 128
+19.0349 	EXP 	block1: image = 'img/tea.jpeg'
+19.0349 	EXP 	repeatText: text = 'Итого: 50\nВаш уровень 0\nНажмите ПРОБЕЛ для продолжения'
+19.0349 	EXP 	block4: autoDraw = True
+19.0349 	EXP 	block3: autoDraw = True
+19.0349 	EXP 	block2: autoDraw = True
+19.0349 	EXP 	block1: autoDraw = True
+19.0349 	EXP 	repeatText: autoDraw = True
+19.6401 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+19.6409 	EXP 	New trial (rep=2, index=0): None
+19.6427 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+19.6428 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+19.6430 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+19.6431 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+19.6433 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+19.6734 	DATA 	Keypress: space
+19.6850 	EXP 	block4: autoDraw = False
+19.6850 	EXP 	block3: autoDraw = False
+19.6850 	EXP 	block2: autoDraw = False
+19.6850 	EXP 	block1: autoDraw = False
+19.6850 	EXP 	repeatText: autoDraw = False
+19.6850 	EXP 	choiceImg: image = 'img/even_choice_4.png'
+19.6850 	EXP 	choiceWarning: text = '32 M&Ms 67%              16 M&Ms 100%'
+19.6850 	EXP 	to_choose: text = 'Для выбора этой опции нажмите 1  Для выбора этой опции нажмите 2'
+19.6850 	EXP 	choiceImg: autoDraw = True
+19.6850 	EXP 	choiceWarning: autoDraw = True
+19.6850 	EXP 	to_choose: autoDraw = True
+20.3280 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+20.3282 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+20.3283 	EXP 	New trial (rep=0, index=0): None
+20.3775 	DATA 	Keypress: 2
+20.3886 	EXP 	choiceImg: autoDraw = False
+20.3886 	EXP 	choiceWarning: autoDraw = False
+20.3886 	EXP 	to_choose: autoDraw = False
+20.3886 	EXP 	rightImg: image = 'img/even_4_circle.png'
+20.3886 	EXP 	rightImg: autoDraw = True
+21.4708 	EXP 	rightImg: autoDraw = False
+21.4708 	EXP 	rightImg: autoDraw = False
+21.4708 	EXP 	rewardImgRight: texRes = 128
+21.4708 	EXP 	rewardImgRight: image = 'img/4m&m.png'
+21.4708 	EXP 	rightText: text = 'Вы получили M&Ms!'
+21.4708 	EXP 	rewardImgRight: autoDraw = True
+21.4708 	EXP 	rightText: autoDraw = True
+22.4688 	EXP 	rewardImgRight: autoDraw = False
+22.4688 	EXP 	rightText: autoDraw = False
+22.4688 	EXP 	block4: texRes = 128
+22.4688 	EXP 	block4: image = 'img/coffee.jpeg'
+22.4688 	EXP 	block3: texRes = 128
+22.4688 	EXP 	block3: image = 'img/cake.jpeg'
+22.4688 	EXP 	block2: texRes = 128
+22.4688 	EXP 	block2: image = 'img/gummi.jpeg'
+22.4688 	EXP 	block1: texRes = 128
+22.4688 	EXP 	block1: image = 'img/tea.jpeg'
+22.4688 	EXP 	repeatText: text = 'Итого: 66\nВаш уровень 0\nНажмите ПРОБЕЛ для продолжения'
+22.4688 	EXP 	block4: autoDraw = True
+22.4688 	EXP 	block3: autoDraw = True
+22.4688 	EXP 	block2: autoDraw = True
+22.4688 	EXP 	block1: autoDraw = True
+22.4688 	EXP 	repeatText: autoDraw = True
+22.9660 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+22.9669 	EXP 	New trial (rep=3, index=0): None
+22.9686 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+22.9688 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+22.9689 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+22.9691 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+22.9692 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+22.9999 	DATA 	Keypress: space
+23.0108 	EXP 	block4: autoDraw = False
+23.0108 	EXP 	block3: autoDraw = False
+23.0108 	EXP 	block2: autoDraw = False
+23.0108 	EXP 	block1: autoDraw = False
+23.0108 	EXP 	repeatText: autoDraw = False
+23.0108 	EXP 	choiceImg: image = 'img/odd_choice_4.png'
+23.0108 	EXP 	choiceWarning: text = '14 M&Ms 100%              32 M&Ms 67%'
+23.0108 	EXP 	to_choose: text = 'Для выбора этой опции нажмите 1  Для выбора этой опции нажмите 2'
+23.0108 	EXP 	choiceImg: autoDraw = True
+23.0108 	EXP 	choiceWarning: autoDraw = True
+23.0108 	EXP 	to_choose: autoDraw = True
+23.3633 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+23.3634 	EXP 	New trial (rep=0, index=0): None
+23.3872 	DATA 	Keypress: 1
+23.3984 	EXP 	choiceImg: autoDraw = False
+23.3984 	EXP 	choiceWarning: autoDraw = False
+23.3984 	EXP 	to_choose: autoDraw = False
+23.3984 	EXP 	leftImg: image = 'img/odd_4_circle.png'
+23.3984 	EXP 	leftImg: autoDraw = True
+24.4968 	EXP 	leftImg: autoDraw = False
+24.4968 	EXP 	leftImg: autoDraw = False
+24.4968 	EXP 	rewardImgLeft: texRes = 128
+24.4968 	EXP 	rewardImgLeft: image = 'img/4m&m.png'
+24.4968 	EXP 	rewardText: text = 'Вы получили M&Ms!'
+24.4968 	EXP 	rewardImgLeft: autoDraw = True
+24.4968 	EXP 	rewardText: autoDraw = True
+25.3943 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+25.4624 	EXP 	rewardImgLeft: autoDraw = False
+25.4624 	EXP 	rewardText: autoDraw = False
+25.4624 	EXP 	block4: texRes = 128
+25.4624 	EXP 	block4: image = 'img/coffee.jpeg'
+25.4624 	EXP 	block3: texRes = 128
+25.4624 	EXP 	block3: image = 'img/cake.jpeg'
+25.4624 	EXP 	block2: texRes = 128
+25.4624 	EXP 	block2: image = 'img/gummi.jpeg'
+25.4624 	EXP 	block1: texRes = 128
+25.4624 	EXP 	block1: image = 'img/tea.jpeg'
+25.4624 	EXP 	repeatText: text = 'Итого: 0\nВаш уровень 0\nНажмите ПРОБЕЛ для продолжения'
+25.4624 	EXP 	block4: autoDraw = True
+25.4624 	EXP 	block3: autoDraw = True
+25.4624 	EXP 	block2: autoDraw = True
+25.4624 	EXP 	block1: autoDraw = True
+25.4624 	EXP 	repeatText: autoDraw = True
+25.9828 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+25.9829 	EXP 	New trial (rep=0, index=0): None
+26.0146 	DATA 	Keypress: space
+26.0212 	EXP 	block4: autoDraw = False
+26.0212 	EXP 	block3: autoDraw = False
+26.0212 	EXP 	block2: autoDraw = False
+26.0212 	EXP 	block1: autoDraw = False
+26.0212 	EXP 	repeatText: autoDraw = False
+26.0212 	EXP 	text: text = 'You saw how easy it was?! \n\n Have you noticed the amount of waiting duration that was different for small and large M&Ms? \n\n Their waiting duration will be presented at the beginning of the each 4 blocks of the game. \n\n You should know that you cannot increase the number of rounds by choosing the faster rewards. \n\n One more thing, for every 200 points you earn one hidden reward!  \n\n Press space to play the game for real!'
+26.0212 	EXP 	text: autoDraw = True
+42.5655 	EXP 	New trial (rep=4, index=0): None
+42.5673 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+42.5674 	EXP 	New trial (rep=0, index=0): None
+42.5826 	DATA 	Keypress: space
+42.5894 	EXP 	text: autoDraw = False
+42.5894 	EXP 	text_6: text = 'демонстрация длительности ожидания меньшей награды.'
+42.5894 	EXP 	text_6: autoDraw = True
+44.5779 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+44.5781 	EXP 	New trial (rep=0, index=0): None
+44.6434 	EXP 	text_6: autoDraw = False
+44.6434 	EXP 	fixImg: image = 'img/even_4_square.png'
+44.6434 	EXP 	text_13: text = 'демонстрация длительности ожидания'
+44.6434 	EXP 	fixImg: autoDraw = True
+44.6434 	EXP 	text_13: autoDraw = True
+45.6433 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+45.6435 	EXP 	New trial (rep=0, index=0): None
+45.6615 	EXP 	fixImg: autoDraw = False
+45.6615 	EXP 	text_13: autoDraw = False
+45.6615 	EXP 	fixImg: autoDraw = False
+45.6615 	EXP 	text_13: autoDraw = False
+45.6615 	EXP 	text_14: text = 'демонстрация длительности ожидания большей награды'
+45.6615 	EXP 	text_14: autoDraw = True
+46.2476 	DATA 	Keypress: escape
+46.4116 	EXP 	window1: mouseVisible = True
