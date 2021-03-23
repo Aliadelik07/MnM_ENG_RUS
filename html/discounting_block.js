@@ -2,13 +2,13 @@
  * Discounting_Block Test *
  **************************/
 
-import { PsychoJS } from './lib/core-2020.2.js';
-import * as core from './lib/core-2020.2.js';
-import { TrialHandler } from './lib/data-2020.2.js';
-import { Scheduler } from './lib/util-2020.2.js';
-import * as visual from './lib/visual-2020.2.js';
-import * as sound from './lib/sound-2020.2.js';
-import * as util from './lib/util-2020.2.js';
+import { PsychoJS } from './lib/core-2021.1.3.js';
+import * as core from './lib/core-2021.1.3.js';
+import { TrialHandler } from './lib/data-2021.1.3.js';
+import { Scheduler } from './lib/util-2021.1.3.js';
+import * as visual from './lib/visual-2021.1.3.js';
+import * as sound from './lib/sound-2021.1.3.js';
+import * as util from './lib/util-2021.1.3.js';
 
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
@@ -75,7 +75,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2020.2';
+  expInfo['psychopyVersion'] = '2021.1.3';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
