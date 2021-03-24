@@ -1,0 +1,2 @@
+lan_choose.keys,lan_choose.rt,intro_1_ending.keys,intro_1_ending.rt,choiceResp.keys,choiceResp.rt,small_reward,Delay,result of chosen,delay of chosen,reward of chosen,total amount,choiceLeftLoop.thisRepN,choiceLeftLoop.thisTrialN,choiceLeftLoop.thisN,choiceLeftLoop.thisIndex,choiceLeftLoop.ran,Email,date,expName,psychopyVersion,OS,frameRate
+1,2.535,space,0.924,1,1.121,16,3,Вы получили M&Ms!,3,32,32,0,0,0,0,1,allen9488@yahoo.com,2021-03-24_19h36.40.851,discounting_block,2020.2,Linux x86_64,60
