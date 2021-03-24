@@ -2,13 +2,13 @@
  * Discounting_Block Test *
  **************************/
 
-import { PsychoJS } from './lib/core-2021.1.3.js';
-import * as core from './lib/core-2021.1.3.js';
-import { TrialHandler } from './lib/data-2021.1.3.js';
-import { Scheduler } from './lib/util-2021.1.3.js';
-import * as visual from './lib/visual-2021.1.3.js';
-import * as sound from './lib/sound-2021.1.3.js';
-import * as util from './lib/util-2021.1.3.js';
+import { PsychoJS } from './lib/core-2020.2.js';
+import * as core from './lib/core-2020.2.js';
+import { TrialHandler } from './lib/data-2020.2.js';
+import { Scheduler } from './lib/util-2020.2.js';
+import * as visual from './lib/visual-2020.2.js';
+import * as sound from './lib/sound-2020.2.js';
+import * as util from './lib/util-2020.2.js';
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
@@ -71,7 +71,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2021.1.3';
+  expInfo['psychopyVersion'] = '2020.2.10';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
@@ -272,7 +272,7 @@ function experimentInit() {
   choiceWarning = new visual.TextStim({
     win: psychoJS.window,
     name: 'choiceWarning',
-    text: '',
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, (- 0.3)], height: 0.05,  wrapWidth: undefined, ori: 0,
@@ -329,7 +329,7 @@ function experimentInit() {
   rewardText = new visual.TextStim({
     win: psychoJS.window,
     name: 'rewardText',
-    text: '',
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -362,7 +362,7 @@ function experimentInit() {
   rightText = new visual.TextStim({
     win: psychoJS.window,
     name: 'rightText',
-    text: '',
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -411,7 +411,7 @@ function experimentInit() {
   repeatText = new visual.TextStim({
     win: psychoJS.window,
     name: 'repeatText',
-    text: '',
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
@@ -428,7 +428,7 @@ function experimentInit() {
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
-    text: '',
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.03,  wrapWidth: undefined, ori: 0,
@@ -1002,7 +1002,7 @@ function fixFramedRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + short_delay[block] - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (fixImg.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((fixImg.status === PsychoJS.Status.STARTED || fixImg.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       fixImg.setAutoDraw(false);
     }
     
@@ -1016,7 +1016,7 @@ function fixFramedRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + short_delay[block] - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (text_4.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((text_4.status === PsychoJS.Status.STARTED || text_4.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       text_4.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -1103,7 +1103,7 @@ function delayFramedRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + long_delay[block] - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (delayImg.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((delayImg.status === PsychoJS.Status.STARTED || delayImg.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       delayImg.setAutoDraw(false);
     }
     
@@ -1117,7 +1117,7 @@ function delayFramedRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + long_delay[block] - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (text_3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((text_3.status === PsychoJS.Status.STARTED || text_3.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       text_3.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -1562,7 +1562,7 @@ function choiceLeftRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + left_delay - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (leftImg.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((leftImg.status === PsychoJS.Status.STARTED || leftImg.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       leftImg.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -1657,7 +1657,7 @@ function feedbackLeftRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (rewardImgLeft.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((rewardImgLeft.status === PsychoJS.Status.STARTED || rewardImgLeft.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       rewardImgLeft.setAutoDraw(false);
     }
     
@@ -1671,7 +1671,7 @@ function feedbackLeftRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (rewardText.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((rewardText.status === PsychoJS.Status.STARTED || rewardText.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       rewardText.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -1754,7 +1754,7 @@ function choiceRightRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + right_delay - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (rightImg.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((rightImg.status === PsychoJS.Status.STARTED || rightImg.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       rightImg.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -1849,7 +1849,7 @@ function feedbackRightRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (rewardImgRight.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((rewardImgRight.status === PsychoJS.Status.STARTED || rewardImgRight.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       rewardImgRight.setAutoDraw(false);
     }
     
@@ -1863,7 +1863,7 @@ function feedbackRightRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0.0 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (rightText.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((rightText.status === PsychoJS.Status.STARTED || rightText.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       rightText.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
@@ -2249,7 +2249,7 @@ function endScreenRoutineEachFrame(snapshot) {
     }
 
     frameRemains = 0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (endText.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    if ((endText.status === PsychoJS.Status.STARTED || endText.status === PsychoJS.Status.FINISHED) && t >= frameRemains) {
       endText.setAutoDraw(false);
     }
     // check for quit (typically the Esc key)
