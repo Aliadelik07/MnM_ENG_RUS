@@ -28,7 +28,7 @@ psychoJS.openWindow({
 
 // store info about the experiment session:
 let expName = 'discounting_block';  // from the Builder filename that created this script
-let expInfo = {'Email': '', 'session': ''};
+let expInfo = {'Email': ''};
 
 // Start code blocks for 'Before Experiment'
 // schedule the experiment:
