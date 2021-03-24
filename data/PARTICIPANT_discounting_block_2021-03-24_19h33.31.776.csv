@@ -1,0 +1,6 @@
+lan_choose.keys,lan_choose.rt,intro_1_ending.keys,intro_1_ending.rt,choiceResp.keys,choiceResp.rt,small_reward,Delay,result of chosen,delay of chosen,reward of chosen,total amount,choiceRightLoop.thisRepN,choiceRightLoop.thisTrialN,choiceRightLoop.thisN,choiceRightLoop.thisIndex,choiceRightLoop.ran,participant,date,expName,psychopyVersion,OS,frameRate,repeatResp.keys,repeatResp.rt,discountingBlockLong.thisRepN,discountingBlockLong.thisTrialN,discountingBlockLong.thisN,discountingBlockLong.thisIndex,discountingBlockLong.ran,choiceLeftLoop.thisRepN,choiceLeftLoop.thisTrialN,choiceLeftLoop.thisN,choiceLeftLoop.thisIndex,choiceLeftLoop.ran
+1,2.093,space,1.437,2,1.471,16,3,Вы получили M&Ms!,1,16,16,0,0,0,0,1,,2021-03-24_19h33.31.776,discounting_block,2020.2,Linux x86_64,60,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,2021-03-24_19h33.31.776,discounting_block,2020.2,Linux x86_64,60,space,1.658,0,0,0,0,1,,,,,
+,,,,1,0.936,14,3,Вы получили M&Ms!,1,14,30,,,,,,,2021-03-24_19h33.31.776,discounting_block,2020.2,Linux x86_64,60,,,,,,,,0,0,0,0,1
+,,,,,,,,,,,,,,,,,,2021-03-24_19h33.31.776,discounting_block,2020.2,Linux x86_64,60,space,1.25,1,0,1,0,1,,,,,
+,,,,2,0.514,12,3,Вы получили M&Ms!,1,12,42,0,0,0,0,1,,2021-03-24_19h33.31.776,discounting_block,2020.2,Linux x86_64,60,,,,,,,,,,,,
